@@ -22,9 +22,9 @@ function App() {
       {/* <TokenValidator> */}
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/intro" />} />
-          <Route path="/intro" element={<Intro />} />
-          <Route path="/home" element={<TestEmotion />} />
+          <Route path="/" element={<Navigate to="/DN-FOOD" />} />
+          <Route path="/DN-FOOD" element={<Intro />} />
+          {/* <Route path="/home" element={<TestEmotion />} /> */}
         </Routes>
       </Router>
 

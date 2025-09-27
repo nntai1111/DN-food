@@ -2,6 +2,36 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export const WelcomePopup = ({ onClose }) => {
+  // Animation variants for staggered entrance of text and icons
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.4, ease: "easeOut" },
+    },
+  };
+
+  const iconVariants = {
+    hidden: { opacity: 0, scale: 0.8, rotate: -10 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      rotate: 0,
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
+  };
+
   return (
     <>
       {/* Backdrop với hiệu ứng mờ */}
@@ -9,7 +39,7 @@ export const WelcomePopup = ({ onClose }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 bg-black/60 backdrop-blur-sm z-30"
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-30"
         onClick={onClose}
       />
 
@@ -21,53 +51,93 @@ export const WelcomePopup = ({ onClose }) => {
         transition={{ type: "spring", damping: 25, stiffness: 300 }}
         className="fixed inset-0 flex items-center justify-center z-40"
       >
-        <div className="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-xl shadow-2xl max-w-2xl w-11/12 text-white border border-white/20 flex flex-col items-center justify-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center font-[Cursive]">
-            Welcome to HCM202
-          </h1>
+        <motion.div
+          className="bg-white/90 backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-2xl max-w-2xl w-11/12 border border-orange-200/50 flex flex-col items-center justify-center relative"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          {/* Decorative icons */}
+          <motion.img
+            src="/logo1b.png"
+            alt="Corner Decor"
+            style={{
+              position: "absolute",
+              top: "16px",
+              left: "16px",
+              width: "48px",
+              height: "48px",
+              opacity: 0.4,
+            }}
+            variants={iconVariants}
+          />
+          <motion.img
+            src="/logo1b.png"
+            alt="Corner Decor"
+            style={{
+              position: "absolute",
+              bottom: "16px",
+              right: "16px",
+              width: "48px",
+              height: "48px",
+              opacity: 0.4,
+            }}
+            variants={iconVariants}
+          />
 
-          <div className="space-y-4 text-center text-sm md:text-base leading-relaxed mb-6">
-            <p>
-              HCM202 - <span className="text-yellow-200 font-medium">Tư tưởng Hồ Chí Minh</span>, được xây dựng bởi Team 2, là hành trình khám phá tư tưởng Hồ Chí Minh về độc lập dân tộc và con đường tiến lên chủ nghĩa xã hội.
-            </p>
+          <motion.h1
+            className="text-3xl md:text-4xl font-extrabold mb-6 text-center text-[#2b468a] font-[Cursive] flex items-center gap-3"
+            variants={itemVariants}
+          >
+            <motion.span variants={iconVariants}>🍜</motion.span>
+            Chào Mừng Đến Với Hành Trình Ẩm Thực Đà Nẵng
+            <motion.span variants={iconVariants}>🥢</motion.span>
+          </motion.h1>
 
-            <div className="flex items-center justify-center space-x-2 py-1">
-              <div className="h-px bg-gradient-to-r from-transparent via-white/30 to-transparent w-16"></div>
-              <span className="text-lg">✨</span>
-              <div className="h-px bg-gradient-to-r from-transparent via-white/30 to-transparent w-16"></div>
-            </div>
+          <div className="flex flex-col  space-y-4 text-sm md:text-base leading-relaxed mb-8">
+            <motion.p variants={itemVariants} className=" inline-flex items-center justify-center gap-2">
+              <motion.span variants={iconVariants}>🍲</motion.span>
+              <span>              Khám phá <span className="text-orange-500 font-semibold">Ẩm Thực Đà Nẵng</span>, một hành trình đầy màu sắc đưa bạn đến với những món ăn đậm chất miền Trung, từ bát mì Quảng thơm lừng đến bánh tráng cuốn thịt heo đậm đà.
+              </span>
+            </motion.p>
 
-            <p>
-              Tư tưởng Hồ Chí Minh khẳng định: <span className="font-semibold">"Không có gì quý hơn độc lập, tự do"</span>. Độc lập dân tộc phải gắn liền với hạnh phúc của nhân dân, thống nhất lãnh thổ, và được bảo đảm bởi con đường cách mạng vô sản.
-            </p>
+            <motion.div className="flex items-center justify-center space-x-2 py-2" variants={itemVariants}>
+              <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
+              <motion.span className="text-lg" variants={iconVariants}>🍙</motion.span>
+              <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
+            </motion.div>
 
-            <p>
-              Chủ nghĩa xã hội, theo Hồ Chí Minh, là xã hội do nhân dân làm chủ, không còn áp bức, mọi người được ấm no, hạnh phúc. Việt Nam tiến lên chủ nghĩa xã hội từ một nước nông nghiệp lạc hậu, dưới sự lãnh đạo của Đảng Cộng sản và sức mạnh đại đoàn kết dân tộc.
-            </p>
+            <motion.p variants={itemVariants} className="inline-flex items-center justify-center gap-2">
+              <motion.span variants={iconVariants}>🥗</motion.span>
+              Ứng dụng này sẽ giúp bạn khám phá những món ăn đặc trưng, tìm ra “món ruột” của riêng bạn, và gợi ý những món nhất định phải thử khi đến Đà Nẵng. Hãy trả lời các câu hỏi để nhận ngay “thiệp ẩm thực” độc đáo!
+            </motion.p>
 
-            <div className="flex items-center justify-center space-x-2 py-1">
-              <div className="h-px bg-gradient-to-r from-transparent via-white/30 to-transparent w-16"></div>
-              <span className="text-lg">🌱</span>
-              <div className="h-px bg-gradient-to-r from-transparent via-white/30 to-transparent w-16"></div>
-            </div>
+            <motion.p variants={itemVariants} className="inline-flex items-center justify-center gap-2">
+              <motion.span variants={iconVariants}>🍤</motion.span>
+              Đà Nẵng không chỉ có biển xanh, cát trắng, mà còn là thiên đường của những món ăn khiến bạn “chén sạch” không chừa. Hãy cùng chúng tôi trải nghiệm văn hóa ẩm thực độc đáo này!
+            </motion.p>
 
-            <p>
-              Chúng tôi sẽ mang đến nội dung dễ hiểu, kết hợp hình ảnh minh họa, giúp bạn nắm bắt tư tưởng Hồ Chí Minh và hành trình xây dựng chủ nghĩa xã hội ở Việt Nam.
-            </p>
+            <motion.div className="flex items-center justify-center space-x-2 py-2" variants={itemVariants}>
+              <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
+              <motion.span className="text-lg" variants={iconVariants}>🥟</motion.span>
+              <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
+            </motion.div>
 
-            <p className="font-medium text-blue-200">
-              Hiểu biết lý luận, vững vàng thực tiễn.
-            </p>
-
-
+            <motion.p variants={itemVariants} className="font-medium text-orange-600 inline-flex items-center justify-center gap-2">
+              <motion.span variants={iconVariants}>🔥</motion.span>
+              Thưởng thức món ngon, lan tỏa hương vị Đà Nẵng!
+            </motion.p>
           </div>
 
-          <div className="flex justify-center">
-            <button
+          <motion.div className="flex justify-center" variants={itemVariants}>
+            <motion.button
               onClick={onClose}
-              className="px-8 py-3 bg-gradient-to-r from-[#602985] to-[#7b42b0] text-white rounded-lg hover:bg-purple-800 transition-all transform hover:-translate-y-1 hover:shadow-lg flex items-center space-x-2"
+              whileHover={{ scale: 1.05, rotate: 2 }}
+              whileTap={{ scale: 0.95, rotate: -2 }}
+              className="px-8 py-3 bg-gradient-to-r from-[#f4a261] to-[#d9480f] text-white rounded-lg hover:bg-orange-600 transition-all transform hover:shadow-lg flex items-center space-x-2"
             >
-              <span>Khám phá ngay</span>
+              <motion.span variants={iconVariants}>🍴</motion.span>
+              <span>Bắt Đầu Khám Phá</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -80,9 +150,9 @@ export const WelcomePopup = ({ onClose }) => {
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
-          </div>
-        </div>
+            </motion.button>
+          </motion.div>
+        </motion.div>
       </motion.div>
     </>
   );
