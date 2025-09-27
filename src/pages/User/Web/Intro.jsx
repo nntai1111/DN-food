@@ -8,6 +8,7 @@ import { MemberIntro } from "../../../components/IntroComponents/Member";
 import { Func } from "../../../components/IntroComponents/Function";
 import { ContentList } from "../../../components/IntroComponents/Content";
 import { ContentList2 } from "../../../components/IntroComponents/Content2";
+import TestEmotion from "./TestEmotion";
 const Intro = () => {
   const question1Ref = useRef(null);
   const question2Ref = useRef(null);
@@ -57,118 +58,127 @@ const Intro = () => {
     <div
       className="min-h-screen w-full flex flex-col items-center justify-center relative"
       style={{
-        backgroundImage: `url('/hcm6.png')`,
-        // backgroundImage: `url('/cnxh1.jpg')`,
+        backgroundImage: `url('/bg1e.jpg')`,
+        // backgroundImage: `url('/bg1.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <ProgressIndicator currentStep={currentStep} totalSteps={4} />
-      {!showWelcomePopup && (
-        <MuteButton isMuted={muted} onToggle={toggleMute} />
-      )}
-      {currentStep > 0 && currentStep < 5 && !showWelcomePopup && (
-        <motion.button
-          onClick={goToPrevious}
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          className="fixed bottom-4 left-4 bg-white/20 text-white px-4 py-2 rounded-lg flex items-center gap-2 z-50"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path
-              fillRule="evenodd"
-              d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
-              clipRule="evenodd"
-            />
-          </svg>
-          Quay lại
-        </motion.button>
-      )}
+      {/* <img
+        src="/bga1.png"
+        alt="bg1"
+        className="absolute bottom-0 left-0 right-0 w-full h-[70%] object-cover pointer-events-none"
+      /> */}
 
-      <div className="absolute inset-0 bg-black/20 z-10"></div>
 
-      <AnimatePresence mode="wait">
-        {showWelcomePopup && (
-          <motion.div
-            key="welcome"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.8 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="fixed inset-0 flex items-center justify-center z-50"
-          >
-            <WelcomePopup onClose={closeWelcomeAndStart} />
-          </motion.div>
+      <div className="relative z-10">
+        <ProgressIndicator currentStep={currentStep} totalSteps={4} />
+        {!showWelcomePopup && (
+          <MuteButton isMuted={muted} onToggle={toggleMute} />
         )}
-
-        {!showWelcomePopup && currentStep === 0 && (
-          <motion.div
-            key="step1"
-            initial={{ opacity: 0, x: 100 }}
+        {currentStep > 0 && currentStep < 5 && !showWelcomePopup && (
+          <motion.button
+            onClick={goToPrevious}
+            initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="w-full"
+            className="fixed bottom-4 left-4 bg-white/20 text-white px-4 py-2 rounded-lg flex items-center gap-2 z-50"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <MemberIntro
-              ref={question1Ref}
-              onConfirm={() => handleConfirm(0)}
-              isLoading={false}
-            />
-          </motion.div>
+            <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Quay lại
+          </motion.button>
         )}
 
-        {!showWelcomePopup && currentStep === 1 && (
-          <motion.div
-            key="step2"
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            <ContentList2
-              ref={question2Ref}
-              onConfirm={() => handleConfirm(1)}
-              isLoading={false}
-            />
-          </motion.div>
-        )}
+        <div className="absolute inset-0 bg-black/20 z-10 rounded-2xl"></div>
 
-        {!showWelcomePopup && currentStep === 2 && (
-          <motion.div
-            key="step3"
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            <ContentList
-              ref={question3Ref}
-              onConfirm={() => handleConfirm(2)}
-              isLoading={false}
-            />
-          </motion.div>
-        )}
+        <AnimatePresence mode="wait">
+          {showWelcomePopup && (
+            <motion.div
+              key="welcome"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="fixed inset-0 flex items-center justify-center z-50"
+            >
+              <WelcomePopup onClose={closeWelcomeAndStart} />
+            </motion.div>
+          )}
 
-        {!showWelcomePopup && currentStep === 3 && (
-          <motion.div
-            key="step4"
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            <Func
-              ref={question4Ref}
-              onConfirm={() => handleConfirm(3)}
-              isLoading={false}
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
+          {!showWelcomePopup && currentStep === 0 && (
+            <motion.div
+              key="step1"
+              // initial={{ opacity: 0, x: 100 }}
+              // animate={{ opacity: 1, x: 0 }}
+              // exit={{ opacity: 0, x: -100 }}
+              // transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="w-full relative z-30"
+            >
+              <TestEmotion
+                ref={question1Ref}
+                onConfirm={() => handleConfirm(0)}
+                isLoading={false}
+              />
+            </motion.div>
+          )}
+
+          {!showWelcomePopup && currentStep === 1 && (
+            <motion.div
+              key="step2"
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+            >
+              <ContentList2
+                ref={question2Ref}
+                onConfirm={() => handleConfirm(1)}
+                isLoading={false}
+              />
+            </motion.div>
+          )}
+
+          {!showWelcomePopup && currentStep === 2 && (
+            <motion.div
+              key="step3"
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+            >
+              <ContentList
+                ref={question3Ref}
+                onConfirm={() => handleConfirm(2)}
+                isLoading={false}
+              />
+            </motion.div>
+          )}
+
+          {!showWelcomePopup && currentStep === 3 && (
+            <motion.div
+              key="step4"
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+            >
+              <Func
+                ref={question4Ref}
+                onConfirm={() => handleConfirm(3)}
+                isLoading={false}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>  </div>
+
     </div>
   );
 };

@@ -1,232 +1,116 @@
-[
-    {
-        "Order": 1,
-        "Content": "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc có ý nghĩa như thế nào?",
-        "options": [
-            {
-                "Id": "1A",
-                "Content": "Là quyền tự quyết về ngoại giao, không cần quân đội riêng."
-            },
-            {
-                "Id": "1B",
-                "Content": "Là khát vọng lớn nhất, quyền thiêng liêng, bất khả xâm phạm của mỗi dân tộc."
-            },
-            {
-                "Id": "1C",
-                "Content": "Chỉ cần dân có ăn, có mặc là đủ."
-            },
-            {
-                "Id": "1D",
-                "Content": "Không cần gắn với tự do và hạnh phúc của nhân dân."
-            }
-        ],
-        "CorrectAnswer": "1B"
-    },
-    {
-        "Order": 2,
-        "Content": "Hồ Chí Minh đã gửi Bản yêu sách của nhân dân An Nam tới đâu để đòi quyền tự do, dân chủ?",
-        "options": [
-            {
-                "Id": "2A",
-                "Content": "Hội nghị Paris năm 1945."
-            },
-            {
-                "Id": "2B",
-                "Content": "Hội nghị Vécxay năm 1919."
-            },
-            {
-                "Id": "2C",
-                "Content": "Liên Hợp Quốc năm 1945."
-            },
-            {
-                "Id": "2D",
-                "Content": "Hội nghị Genève năm 1954."
-            }
-        ],
-        "CorrectAnswer": "2B"
-    },
-    {
-        "Order": 3,
-        "Content": "Trong Tuyên ngôn độc lập năm 1945, Hồ Chí Minh khẳng định điều gì?",
-        "options": [
-            {
-                "Id": "3A",
-                "Content": "Việt Nam cần xây dựng quân đội mạnh trước tiên."
-            },
-            {
-                "Id": "3B",
-                "Content": "Nước Việt Nam có quyền hưởng tự do và độc lập, quyết giữ vững quyền đó."
-            },
-            {
-                "Id": "3C",
-                "Content": "Dân tộc Việt Nam không cần thống nhất lãnh thổ."
-            },
-            {
-                "Id": "3D",
-                "Content": "Độc lập chỉ cần trên lĩnh vực kinh tế."
-            }
-        ],
-        "CorrectAnswer": "3B"
-    },
-    {
-        "Order": 4,
-        "Content": "Câu nói “Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ” được Hồ Chí Minh đưa ra trong bối cảnh nào?",
-        "options": [
-            {
-                "Id": "4A",
-                "Content": "Cách mạng Tháng Tám năm 1945."
-            },
-            {
-                "Id": "4B",
-                "Content": "Chiến tranh chống đế quốc Mỹ."
-            },
-            {
-                "Id": "4C",
-                "Content": "Thực dân Pháp tái xâm lược Việt Nam."
-            },
-            {
-                "Id": "4D",
-                "Content": "Hội nghị Vécxay năm 1919."
-            }
-        ],
-        "CorrectAnswer": "4C"
-    },
-    {
-        "Order": 5,
-        "Content": "Câu nói “Không có gì quý hơn độc lập, tự do” được Hồ Chí Minh nhấn mạnh trong bối cảnh nào?",
-        "options": [
-            {
-                "Id": "5A",
-                "Content": "Đế quốc Mỹ tăng cường chiến tranh xâm lược Việt Nam."
-            },
-            {
-                "Id": "5B",
-                "Content": "Sau Cách mạng Tháng Tám năm 1945."
-            },
-            {
-                "Id": "5C",
-                "Content": "Trong Bản yêu sách năm 1919."
-            },
-            {
-                "Id": "5D",
-                "Content": "Trong cuộc kháng chiến chống Pháp."
-            }
-        ],
-        "CorrectAnswer": "5A"
-    },
-    {
-        "Order": 6,
-        "Content": "Theo Hồ Chí Minh, độc lập dân tộc có ý nghĩa gì nếu dân không được hưởng hạnh phúc, tự do?",
-        "options": [
-            {
-                "Id": "6A",
-                "Content": "Độc lập vẫn có ý nghĩa lớn lao."
-            },
-            {
-                "Id": "6B",
-                "Content": "Độc lập chẳng có nghĩa lý gì."
-            },
-            {
-                "Id": "6C",
-                "Content": "Độc lập chỉ cần ở lĩnh vực kinh tế."
-            },
-            {
-                "Id": "6D",
-                "Content": "Độc lập không cần gắn với lãnh thổ."
-            }
-        ],
-        "CorrectAnswer": "6B"
-    },
-    {
-        "Order": 7,
-        "Content": "Sau Cách mạng Tháng Tám, Hồ Chí Minh yêu cầu Đảng và Chính phủ phải làm gì để đảm bảo hạnh phúc cho dân?",
-        "options": [
-            {
-                "Id": "7A",
-                "Content": "Chỉ cần xây dựng quân đội mạnh."
-            },
-            {
-                "Id": "7B",
-                "Content": "Làm cho dân có ăn, có mặc, có chỗ ở, được học hành."
-            },
-            {
-                "Id": "7C",
-                "Content": "Tập trung vào phát triển kinh tế mà không cần giáo dục."
-            },
-            {
-                "Id": "7D",
-                "Content": "Chỉ cần đảm bảo quyền tự do ngôn luận."
-            }
-        ],
-        "CorrectAnswer": "7B"
-    },
-    {
-        "Order": 8,
-        "Content": "Theo Hồ Chí Minh, nền độc lập thật sự, hoàn toàn và triệt để phải được thể hiện như thế nào?",
-        "options": [
-            {
-                "Id": "8A",
-                "Content": "Chỉ cần có quyền tự quyết về ngoại giao."
-            },
-            {
-                "Id": "8B",
-                "Content": "Phải có quân đội riêng, nền tài chính riêng và độc lập trên mọi lĩnh vực."
-            },
-            {
-                "Id": "8C",
-                "Content": "Không cần quan tâm đến kinh tế và quân sự."
-            },
-            {
-                "Id": "8D",
-                "Content": "Chỉ cần dân chúng được tự do là đủ."
-            }
-        ],
-        "CorrectAnswer": "8B"
-    },
-    {
-        "Order": 9,
-        "Content": "Tư tưởng “Nước Việt Nam là một, dân tộc Việt Nam là một” của Hồ Chí Minh nhấn mạnh điều gì?",
-        "options": [
-            {
-                "Id": "9A",
-                "Content": "Độc lập dân tộc không cần gắn với lãnh thổ."
-            },
-            {
-                "Id": "9B",
-                "Content": "Sự thống nhất và toàn vẹn lãnh thổ."
-            },
-            {
-                "Id": "9C",
-                "Content": "Chỉ cần độc lập ở miền Bắc là đủ."
-            },
-            {
-                "Id": "9D",
-                "Content": "Không cần quan tâm đến sự sum họp của đồng bào Nam, Bắc."
-            }
-        ],
-        "CorrectAnswer": "9B"
-    },
-    {
-        "Order": 10,
-        "Content": "Mục tiêu cao cả nhất trong tư tưởng Hồ Chí Minh về độc lập dân tộc là gì?",
-        "options": [
-            {
-                "Id": "10A",
-                "Content": "Xây dựng một nền kinh tế mạnh mẽ."
-            },
-            {
-                "Id": "10B",
-                "Content": "Làm cho nước nhà hoàn toàn độc lập, dân được tự do, ấm no, hạnh phúc."
-            },
-            {
-                "Id": "10C",
-                "Content": "Chỉ cần giữ vững lãnh thổ là đủ."
-            },
-            {
-                "Id": "10D",
-                "Content": "Tập trung vào xây dựng quân đội hùng mạnh."
-            }
-        ],
-        "CorrectAnswer": "10B"
-    }
-]
+{
+    "foods": [
+        {
+            "name": "Bánh tráng cuốn thịt heo",
+            "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/164048/Originals/banh-trang-cuon-thit-heo-5.jpg"
+        },
+        {
+            "name": "Mì Quảng",
+            "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/mi_quang_phu_chiem_1ed1430e57.jpg"
+        },
+        {
+            "name": "Bún chả cá",
+            "image": "https://statics.vinpearl.com/bun-cha-ca-da-nang--_1629094990.jpg"
+        },
+        {
+            "name": "Bánh xèo",
+            "image": "https://salindaresort.com/uploads/articles/134/bo-tui-11-quan-banh-xeo-ngon-nhat-phu-quoc.jpg"
+        },
+        {
+            "name": "Cao lầu",
+            "image": "https://i-giadinh.vnecdn.net/2023/03/13/Buoc-7-Thanh-pham-1-7-9577-1678700377.jpg"
+        },
+        {
+            "name": "Bê thui Cầu Mống",
+            "image": "https://statics.vinpearl.com/be-thui-cau-mong-06_1634016495.jpg"
+        },
+        {
+            "name": "Hải sản nướng",
+            "image": "https://reviewdanang.com.vn/wp-content/uploads/2023/04/Thiet-ke-chua-co-ten-19.png"
+        },
+        {
+            "name": "Bánh bèo",
+            "image": "https://statics.vinpearl.com/banh-beo-da-nang-13_1666604428.jpg"
+        },
+        {
+            "name": "Bánh nậm",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBOuSRba1tbeb8i3thXOuKE6gMB7xJrWdAA&s"
+        },
+        {
+            "name": "Bánh lọc",
+            "image": "https://statics.vinpearl.com/banh-bot-loc-da-nang-7_1668524495.jpg"
+        },
+        {
+            "name": "Gỏi cá Nam Ô",
+            "image": "https://statics.vinpearl.com/goi-ca-nam-o-10_1628680233.jpg"
+        },
+        {
+            "name": "Chè bắp Hội An",
+            "image": "https://static.vinwonders.com/2023/01/che-bap-hoi-an-3.jpg"
+        },
+        {
+            "name": "Bún bò",
+            "image": "https://statics.vinpearl.com/bun-bo-da-nang-05_1629178983_1679993291.png"
+        },
+        {
+            "name": "Hến xúc bánh tráng",
+            "image": "https://beptruong.edu.vn/wp-content/uploads/2021/01/hen-xuc-banh-da.jpg"
+        },
+        {
+            "name": "Mít trộn",
+            "image": "https://cdn.tgdd.vn/2021/10/CookRecipe/GalleryStep/thanh-pham-1551.jpg"
+        },
+        {
+            "name": "Bánh canh chả cá",
+            "image": "https://static.vinwonders.com/2022/12/banh-canh-Da-Nang-13.jpg"
+        },
+        {
+            "name": "Kem bơ",
+            "image": "https://static.vinwonders.com/production/Kem-bo-da-nang-1.jpg"
+        },
+        {
+            "name": "Cháo lươn",
+            "image": "https://statics.vinpearl.com/chao-luon-da-nang-8_1703648174.jpg"
+        },
+        {
+            "name": "Bánh khoái",
+            "image": "https://statics.vinpearl.com/banh-xeo-da-nang-1_1629075704.jpg"
+        },
+        {
+            "name": "Nem lụi",
+            "image": "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2016/01/mon-nem-lui-1-e1505807903556.jpg"
+        },
+        {
+            "name": "Bánh ướt thịt nướng",
+            "image": "https://static.vinwonders.com/production/banh-uot-da-nang-06.jpg"
+        },
+        {
+            "name": "Cơm gà",
+            "image": "https://duonggiahotel.vn/wp-content/uploads/2023/09/quan-com-ga-da-nang-21.jpg"
+        },
+        {
+            "name": "Bún mắm nêm",
+            "image": "https://statics.vinpearl.com/bun-mam-nem-da-nang-09_1628665181.jpg"
+        },
+        {
+            "name": "Bánh mì Đà Nẵng",
+            "image": "https://duonggiahotel.vn/wp-content/uploads/2023/10/tiem-banh-mi-da-nang-2.jpg"
+        },
+        {
+            "name": "Ốc hút",
+            "image": "https://mia.vn/media/uploads/blog-du-lich/diem-mat-top-7-quan-oc-hut-da-nang-nuc-tieng-gan-xa-1-1636999076.jpg"
+        }
+    ],
+    "quotes": [
+        "🍜 Đồ ăn Đà Nẵng ngon dữ rứa!",
+        "🔥 DamDa DamDa DamDa OMG không thể từ chối được!",
+        "🥢 Ẩm thực Đà Nẵng, ăn là mê!",
+        "🌸 Hương vị Đà Nẵng, đậm đà khó quên!",
+        "💖 Một lần ăn, ngàn lần nhớ!",
+        "🌊 Đà Nẵng không chỉ có biển đẹp mà còn có ẩm thực siêu ngon!",
+        "😋 Ăn xong lại muốn ăn nữa, thiệt tình!",
+        "🥘 Món ngon Đà Nẵng – vừa ngon vừa đậm chất miền Trung!",
+        "📍 Đến Đà Nẵng mà chưa thử đặc sản thì coi như chưa đi!",
+        "✨ Ẩm thực Đà Nẵng – đơn giản mà làm say lòng người!"
+    ]
+}
