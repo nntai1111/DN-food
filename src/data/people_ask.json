@@ -1,0 +1,52 @@
+[
+    {
+        "Question": "Tư tưởng Hồ Chí Minh về độc lập dân tộc là gì?",
+        "Answer": "Tư tưởng Hồ Chí Minh về độc lập dân tộc khẳng định độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm, gắn liền với tự do, hạnh phúc của nhân dân, thống nhất và toàn vẹn lãnh thổ. Độc lập phải thật sự, hoàn toàn, triệt để trên mọi lĩnh vực.",
+        "id": 1
+    },
+    {
+        "Question": "Tại sao Hồ Chí Minh nhấn mạnh độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân?",
+        "Answer": "Theo Hồ Chí Minh, độc lập không chỉ là thoát khỏi ách thống trị ngoại bang mà còn phải mang lại tự do, hạnh phúc cho nhân dân. Nếu dân không hưởng hạnh phúc, tự do thì độc lập không có ý nghĩa.",
+        "id": 2
+    },
+    {
+        "Question": "Hồ Chí Minh xác định con đường nào để giành độc lập dân tộc?",
+        "Answer": "Hồ Chí Minh xác định con đường cách mạng vô sản là con đường duy nhất để giành độc lập dân tộc, bác bỏ con đường cách mạng tư sản vì không giải phóng triệt để công nông.",
+        "id": 3
+    },
+    {
+        "Question": "Vai trò của Đảng Cộng sản trong cách mạng giải phóng dân tộc là gì?",
+        "Answer": "Đảng Cộng sản là đội tiên phong của giai cấp công nhân, nhân dân lao động và cả dân tộc, đóng vai trò lãnh đạo tuyệt đối. Hồ Chí Minh nhấn mạnh: 'Đảng có vững cách mệnh mới thành công'.",
+        "id": 4
+    },
+    {
+        "Question": "Tại sao Hồ Chí Minh nhấn mạnh đại đoàn kết toàn dân tộc?",
+        "Answer": "Hồ Chí Minh coi đại đoàn kết toàn dân tộc là nền tảng của cách mạng, với liên minh công - nông làm gốc. 'Dân là có tất cả, được lòng dân thì được tất cả, mất lòng dân thì mất tất cả'.",
+        "id": 5
+    },
+    {
+        "Question": "Tư tưởng Hồ Chí Minh về chủ nghĩa xã hội là gì?",
+        "Answer": "Chủ nghĩa xã hội là xã hội không còn áp bức, bóc lột, do nhân dân lao động làm chủ, mọi người có công ăn việc làm, được ấm no, hạnh phúc, ưu việt hơn chủ nghĩa tư bản.",
+        "id": 6
+    },
+    {
+        "Question": "Vì sao Việt Nam có thể tiến thẳng lên chủ nghĩa xã hội từ một nước nông nghiệp lạc hậu?",
+        "Answer": "Việt Nam có thể bỏ qua giai đoạn tư bản chủ nghĩa nhờ vai trò lãnh đạo của Đảng Cộng sản, sức mạnh đoàn kết dân tộc và sự hỗ trợ của cách mạng thế giới, theo học thuyết Mác.",
+        "id": 7
+    },
+    {
+        "Question": "Mối quan hệ giữa độc lập dân tộc và chủ nghĩa xã hội trong tư tưởng Hồ Chí Minh là gì?",
+        "Answer": "Độc lập dân tộc và chủ nghĩa xã hội có mối quan hệ biện chứng. Độc lập dân tộc là tiền đề để tiến lên chủ nghĩa xã hội; chủ nghĩa xã hội bảo đảm nền độc lập vững chắc, lâu dài.",
+        "id": 8
+    },
+    {
+        "Question": "Ba điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là gì?",
+        "Answer": "1. Vai trò lãnh đạo tuyệt đối của Đảng Cộng sản. 2. Khối đại đoàn kết toàn dân tộc. 3. Đoàn kết với cách mạng thế giới để tạo sức mạnh tổng hợp.",
+        "id": 9
+    },
+    {
+        "Question": "Tại sao Hồ Chí Minh nhấn mạnh bạo lực cách mạng trong cách mạng giải phóng dân tộc?",
+        "Answer": "Bạo lực cách mạng là cần thiết để chống bạo lực phản cách mạng, giành và giữ chính quyền, kết hợp giữa lực lượng chính trị và vũ trang của quần chúng, linh hoạt theo tình hình.",
+        "id": 10
+    }
+]

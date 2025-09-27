@@ -1,0 +1,232 @@
+[
+    {
+        "Order": 1,
+        "Content": "Theo tư tưởng Hồ Chí Minh, mối quan hệ giữa độc lập dân tộc và chủ nghĩa xã hội được hiểu như thế nào?",
+        "options": [
+            {
+                "Id": "1A",
+                "Content": "Hai mục tiêu này không liên quan đến nhau."
+            },
+            {
+                "Id": "1B",
+                "Content": "Có mối quan hệ biện chứng, hữu cơ, không thể tách rời."
+            },
+            {
+                "Id": "1C",
+                "Content": "Chỉ cần độc lập dân tộc là đủ, không cần chủ nghĩa xã hội."
+            },
+            {
+                "Id": "1D",
+                "Content": "Chủ nghĩa xã hội có thể đạt được mà không cần độc lập dân tộc."
+            }
+        ],
+        "CorrectAnswer": "1B"
+    },
+    {
+        "Order": 2,
+        "Content": "Hồ Chí Minh xác định phương hướng chiến lược của cách mạng Việt Nam là gì?",
+        "options": [
+            {
+                "Id": "2A",
+                "Content": "Chỉ tập trung vào phát triển kinh tế tư bản."
+            },
+            {
+                "Id": "2B",
+                "Content": "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản."
+            },
+            {
+                "Id": "2C",
+                "Content": "Chỉ đấu tranh giành độc lập dân tộc mà không cần mục tiêu xã hội chủ nghĩa."
+            },
+            {
+                "Id": "2D",
+                "Content": "Dựa hoàn toàn vào cách mạng thế giới."
+            }
+        ],
+        "CorrectAnswer": "2B"
+    },
+    {
+        "Order": 3,
+        "Content": "Theo Hồ Chí Minh, độc lập dân tộc có vai trò gì đối với chủ nghĩa xã hội?",
+        "options": [
+            {
+                "Id": "3A",
+                "Content": "Là mục tiêu duy nhất, không liên quan đến chủ nghĩa xã hội."
+            },
+            {
+                "Id": "3B",
+                "Content": "Là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội."
+            },
+            {
+                "Id": "3C",
+                "Content": "Không cần thiết để xây dựng chủ nghĩa xã hội."
+            },
+            {
+                "Id": "3D",
+                "Content": "Chỉ cần đạt được một phần là đủ."
+            }
+        ],
+        "CorrectAnswer": "3B"
+    },
+    {
+        "Order": 4,
+        "Content": "Tại sao chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc?",
+        "options": [
+            {
+                "Id": "4A",
+                "Content": "Vì nó tạo nền tảng kinh tế vững mạnh, chính trị ổn định, văn hóa phát triển."
+            },
+            {
+                "Id": "4B",
+                "Content": "Vì nó chỉ cần tập trung vào phát triển quân sự."
+            },
+            {
+                "Id": "4C",
+                "Content": "Vì nó không liên quan đến độc lập dân tộc."
+            },
+            {
+                "Id": "4D",
+                "Content": "Vì nó chỉ cần dựa vào sự hỗ trợ từ nước ngoài."
+            }
+        ],
+        "CorrectAnswer": "4A"
+    },
+    {
+        "Order": 5,
+        "Content": "Điều kiện đầu tiên để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là gì?",
+        "options": [
+            {
+                "Id": "5A",
+                "Content": "Tăng cường quan hệ với các nước tư bản."
+            },
+            {
+                "Id": "5B",
+                "Content": "Bảo đảm vai trò lãnh đạo tuyệt đối của Đảng Cộng sản Việt Nam."
+            },
+            {
+                "Id": "5C",
+                "Content": "Chỉ tập trung vào phát triển kinh tế quốc doanh."
+            },
+            {
+                "Id": "5D",
+                "Content": "Không cần sự lãnh đạo của Đảng."
+            }
+        ],
+        "CorrectAnswer": "5B"
+    },
+    {
+        "Order": 6,
+        "Content": "Điều kiện thứ hai để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là gì?",
+        "options": [
+            {
+                "Id": "6A",
+                "Content": "Củng cố khối đại đoàn kết toàn dân tộc, với liên minh công - nông - trí làm nền tảng."
+            },
+            {
+                "Id": "6B",
+                "Content": "Chỉ dựa vào lực lượng công nhân mà không cần nông dân."
+            },
+            {
+                "Id": "6C",
+                "Content": "Không cần đoàn kết toàn dân tộc."
+            },
+            {
+                "Id": "6D",
+                "Content": "Chỉ tập trung vào trí thức và tư sản."
+            }
+        ],
+        "CorrectAnswer": "6A"
+    },
+    {
+        "Order": 7,
+        "Content": "Điều kiện thứ ba để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là gì?",
+        "options": [
+            {
+                "Id": "7A",
+                "Content": "Chỉ dựa vào nội lực trong nước."
+            },
+            {
+                "Id": "7B",
+                "Content": "Đoàn kết, gắn bó chặt chẽ với cách mạng thế giới."
+            },
+            {
+                "Id": "7C",
+                "Content": "Không cần hợp tác với các nước khác."
+            },
+            {
+                "Id": "7D",
+                "Content": "Chỉ cần xây dựng nền kinh tế tự cung tự cấp."
+            }
+        ],
+        "CorrectAnswer": "7B"
+    },
+    {
+        "Order": 8,
+        "Content": "Theo Hồ Chí Minh, vì sao không có độc lập dân tộc thì không thể có chủ nghĩa xã hội?",
+        "options": [
+            {
+                "Id": "8A",
+                "Content": "Vì độc lập dân tộc là điều kiện tiên quyết để thực hiện mục tiêu xã hội chủ nghĩa."
+            },
+            {
+                "Id": "8B",
+                "Content": "Vì chủ nghĩa xã hội không cần độc lập dân tộc."
+            },
+            {
+                "Id": "8C",
+                "Content": "Vì độc lập dân tộc chỉ là mục tiêu phụ."
+            },
+            {
+                "Id": "8D",
+                "Content": "Vì chủ nghĩa xã hội chỉ cần phát triển kinh tế là đủ."
+            }
+        ],
+        "CorrectAnswer": "8A"
+    },
+    {
+        "Order": 9,
+        "Content": "Xây dựng chủ nghĩa xã hội giúp gì cho nền độc lập dân tộc?",
+        "options": [
+            {
+                "Id": "9A",
+                "Content": "Chỉ giúp phát triển văn hóa mà không cần kinh tế."
+            },
+            {
+                "Id": "9B",
+                "Content": "Tạo nền tảng kinh tế vững mạnh, chính trị ổn định, là tấm gương cho các dân tộc khác."
+            },
+            {
+                "Id": "9C",
+                "Content": "Không ảnh hưởng đến nền độc lập dân tộc."
+            },
+            {
+                "Id": "9D",
+                "Content": "Chỉ cần tập trung vào quân sự là đủ."
+            }
+        ],
+        "CorrectAnswer": "9B"
+    },
+    {
+        "Order": 10,
+        "Content": "Theo Hồ Chí Minh, liên minh nào là nền tảng của khối đại đoàn kết toàn dân tộc?",
+        "options": [
+            {
+                "Id": "10A",
+                "Content": "Liên minh giữa tư sản và trí thức."
+            },
+            {
+                "Id": "10B",
+                "Content": "Liên minh công - nông - trí."
+            },
+            {
+                "Id": "10C",
+                "Content": "Liên minh giữa quân đội và chính trị gia."
+            },
+            {
+                "Id": "10D",
+                "Content": "Liên minh giữa các tổ chức tôn giáo."
+            }
+        ],
+        "CorrectAnswer": "10B"
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+        "Order": 1,
+        "Content": "Theo Hồ Chí Minh, chủ nghĩa xã hội là gì?",
+        "options": [
+            {
+                "Id": "1A",
+                "Content": "Một xã hội do tư sản làm chủ, đảm bảo lợi ích cá nhân."
+            },
+            {
+                "Id": "1B",
+                "Content": "Một xã hội không còn áp bức, bóc lột, do nhân dân lao động làm chủ, mọi người ấm no, hạnh phúc."
+            },
+            {
+                "Id": "1C",
+                "Content": "Một xã hội chỉ tập trung vào phát triển kinh tế."
+            },
+            {
+                "Id": "1D",
+                "Content": "Một xã hội không cần sự lãnh đạo của Đảng Cộng sản."
+            }
+        ],
+        "CorrectAnswer": "1B"
+    },
+    {
+        "Order": 2,
+        "Content": "Hồ Chí Minh khẳng định Việt Nam có thể tiến lên chủ nghĩa xã hội như thế nào?",
+        "options": [
+            {
+                "Id": "2A",
+                "Content": "Phải trải qua đầy đủ giai đoạn tư bản chủ nghĩa."
+            },
+            {
+                "Id": "2B",
+                "Content": "Từ một nước nông nghiệp lạc hậu, bỏ qua giai đoạn phát triển tư bản chủ nghĩa."
+            },
+            {
+                "Id": "2C",
+                "Content": "Chỉ cần dựa vào các nước tư bản phát triển."
+            },
+            {
+                "Id": "2D",
+                "Content": "Không cần cải tạo xã hội cũ."
+            }
+        ],
+        "CorrectAnswer": "2B"
+    },
+    {
+        "Order": 3,
+        "Content": "Đặc trưng chính trị của xã hội chủ nghĩa ở Việt Nam theo tư tưởng Hồ Chí Minh là gì?",
+        "options": [
+            {
+                "Id": "3A",
+                "Content": "Mọi quyền lực thuộc về một số ít người giàu có."
+            },
+            {
+                "Id": "3B",
+                "Content": "Nhân dân lao động làm chủ, dưới sự lãnh đạo của Đảng Cộng sản, trên nền tảng liên minh công - nông."
+            },
+            {
+                "Id": "3C",
+                "Content": "Không cần sự lãnh đạo của Đảng Cộng sản."
+            },
+            {
+                "Id": "3D",
+                "Content": "Chỉ tập trung vào quyền tự do ngôn luận."
+            }
+        ],
+        "CorrectAnswer": "3B"
+    },
+    {
+        "Order": 4,
+        "Content": "Theo Hồ Chí Minh, nền kinh tế xã hội chủ nghĩa ở Việt Nam có đặc điểm gì?",
+        "options": [
+            {
+                "Id": "4A",
+                "Content": "Dựa trên lực lượng sản xuất lạc hậu và chế độ tư nhân sở hữu."
+            },
+            {
+                "Id": "4B",
+                "Content": "Phát triển cao, dựa trên lực lượng sản xuất hiện đại, chế độ sở hữu chủ yếu là của nhân dân."
+            },
+            {
+                "Id": "4C",
+                "Content": "Chỉ tập trung vào phát triển nông nghiệp."
+            },
+            {
+                "Id": "4D",
+                "Content": "Không cần công nghiệp hiện đại."
+            }
+        ],
+        "CorrectAnswer": "4B"
+    },
+    {
+        "Order": 5,
+        "Content": "Mục tiêu văn hóa của chủ nghĩa xã hội ở Việt Nam theo Hồ Chí Minh là gì?",
+        "options": [
+            {
+                "Id": "5A",
+                "Content": "Xây dựng nền văn hóa mang tính dân tộc, khoa học, đại chúng, xóa bỏ tàn tích văn hóa cũ."
+            },
+            {
+                "Id": "5B",
+                "Content": "Giữ nguyên các hủ tục và văn hóa thực dân."
+            },
+            {
+                "Id": "5C",
+                "Content": "Chỉ tiếp thu văn hóa phương Tây."
+            },
+            {
+                "Id": "5D",
+                "Content": "Không cần xây dựng nền văn hóa mới."
+            }
+        ],
+        "CorrectAnswer": "5A"
+    },
+    {
+        "Order": 6,
+        "Content": "Động lực mạnh mẽ nhất để xây dựng chủ nghĩa xã hội ở Việt Nam theo Hồ Chí Minh là gì?",
+        "options": [
+            {
+                "Id": "6A",
+                "Content": "Sự hỗ trợ từ các nước tư bản."
+            },
+            {
+                "Id": "6B",
+                "Content": "Sức mạnh của nhân dân, thể hiện qua lợi ích, dân chủ và đại đoàn kết toàn dân."
+            },
+            {
+                "Id": "6C",
+                "Content": "Sự phát triển kinh tế độc lập."
+            },
+            {
+                "Id": "6D",
+                "Content": "Chỉ cần sự lãnh đạo của Đảng là đủ."
+            }
+        ],
+        "CorrectAnswer": "6B"
+    },
+    {
+        "Order": 7,
+        "Content": "Theo Hồ Chí Minh, con người mới của chủ nghĩa xã hội ở Việt Nam cần có phẩm chất gì?",
+        "options": [
+            {
+                "Id": "7A",
+                "Content": "Chỉ cần có kỹ năng chuyên môn cao."
+            },
+            {
+                "Id": "7B",
+                "Content": "Ý thức làm chủ, tinh thần tập thể, chống tham ô, lãng phí."
+            },
+            {
+                "Id": "7C",
+                "Content": "Không cần quan tâm đến lợi ích tập thể."
+            },
+            {
+                "Id": "7D",
+                "Content": "Chỉ cần có ý thức cá nhân mạnh mẽ."
+            }
+        ],
+        "CorrectAnswer": "7B"
+    },
+    {
+        "Order": 8,
+        "Content": "Thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam có đặc điểm gì theo tư tưởng Hồ Chí Minh?",
+        "options": [
+            {
+                "Id": "8A",
+                "Content": "Là quá trình đơn giản, không cần cải tạo xã hội cũ."
+            },
+            {
+                "Id": "8B",
+                "Content": "Là thời kỳ cải biến sâu sắc, phức tạp, lâu dài, từ nước nông nghiệp lạc hậu bỏ qua tư bản chủ nghĩa."
+            },
+            {
+                "Id": "8C",
+                "Content": "Chỉ cần tập trung vào phát triển kinh tế."
+            },
+            {
+                "Id": "8D",
+                "Content": "Không cần đấu tranh chống tàn tích chế độ cũ."
+            }
+        ],
+        "CorrectAnswer": "8B"
+    },
+    {
+        "Order": 9,
+        "Content": "Một trong những nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ là gì?",
+        "options": [
+            {
+                "Id": "9A",
+                "Content": "Không cần giữ vững độc lập dân tộc."
+            },
+            {
+                "Id": "9B",
+                "Content": "Mọi tư tưởng, hành động phải dựa trên nền tảng chủ nghĩa Mác - Lênin."
+            },
+            {
+                "Id": "9C",
+                "Content": "Chỉ học hỏi kinh nghiệm từ các nước tư bản."
+            },
+            {
+                "Id": "9D",
+                "Content": "Không cần đoàn kết toàn dân."
+            }
+        ],
+        "CorrectAnswer": "9B"
+    },
+    {
+        "Order": 10,
+        "Content": "Theo Hồ Chí Minh, nguyên tắc nào là điều kiện tiên quyết để xây dựng chủ nghĩa xã hội?",
+        "options": [
+            {
+                "Id": "10A",
+                "Content": "Giữ vững độc lập dân tộc."
+            },
+            {
+                "Id": "10B",
+                "Content": "Chỉ tập trung vào phát triển văn hóa."
+            },
+            {
+                "Id": "10C",
+                "Content": "Không cần chống lại các thế lực phá hoại."
+            },
+            {
+                "Id": "10D",
+                "Content": "Chỉ dựa vào sự hỗ trợ của nước ngoài."
+            }
+        ],
+        "CorrectAnswer": "10A"
+    }
+]

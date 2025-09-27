@@ -1,0 +1,232 @@
+[
+    {
+        "Order": 1,
+        "Content": "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc có ý nghĩa như thế nào?",
+        "options": [
+            {
+                "Id": "1A",
+                "Content": "Là quyền tự quyết về ngoại giao, không cần quân đội riêng."
+            },
+            {
+                "Id": "1B",
+                "Content": "Là khát vọng lớn nhất, quyền thiêng liêng, bất khả xâm phạm của mỗi dân tộc."
+            },
+            {
+                "Id": "1C",
+                "Content": "Chỉ cần dân có ăn, có mặc là đủ."
+            },
+            {
+                "Id": "1D",
+                "Content": "Không cần gắn với tự do và hạnh phúc của nhân dân."
+            }
+        ],
+        "CorrectAnswer": "1B"
+    },
+    {
+        "Order": 2,
+        "Content": "Hồ Chí Minh đã gửi Bản yêu sách của nhân dân An Nam tới đâu để đòi quyền tự do, dân chủ?",
+        "options": [
+            {
+                "Id": "2A",
+                "Content": "Hội nghị Paris năm 1945."
+            },
+            {
+                "Id": "2B",
+                "Content": "Hội nghị Vécxay năm 1919."
+            },
+            {
+                "Id": "2C",
+                "Content": "Liên Hợp Quốc năm 1945."
+            },
+            {
+                "Id": "2D",
+                "Content": "Hội nghị Genève năm 1954."
+            }
+        ],
+        "CorrectAnswer": "2B"
+    },
+    {
+        "Order": 3,
+        "Content": "Trong Tuyên ngôn độc lập năm 1945, Hồ Chí Minh khẳng định điều gì?",
+        "options": [
+            {
+                "Id": "3A",
+                "Content": "Việt Nam cần xây dựng quân đội mạnh trước tiên."
+            },
+            {
+                "Id": "3B",
+                "Content": "Nước Việt Nam có quyền hưởng tự do và độc lập, quyết giữ vững quyền đó."
+            },
+            {
+                "Id": "3C",
+                "Content": "Dân tộc Việt Nam không cần thống nhất lãnh thổ."
+            },
+            {
+                "Id": "3D",
+                "Content": "Độc lập chỉ cần trên lĩnh vực kinh tế."
+            }
+        ],
+        "CorrectAnswer": "3B"
+    },
+    {
+        "Order": 4,
+        "Content": "Câu nói “Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ” được Hồ Chí Minh đưa ra trong bối cảnh nào?",
+        "options": [
+            {
+                "Id": "4A",
+                "Content": "Cách mạng Tháng Tám năm 1945."
+            },
+            {
+                "Id": "4B",
+                "Content": "Chiến tranh chống đế quốc Mỹ."
+            },
+            {
+                "Id": "4C",
+                "Content": "Thực dân Pháp tái xâm lược Việt Nam."
+            },
+            {
+                "Id": "4D",
+                "Content": "Hội nghị Vécxay năm 1919."
+            }
+        ],
+        "CorrectAnswer": "4C"
+    },
+    {
+        "Order": 5,
+        "Content": "Câu nói “Không có gì quý hơn độc lập, tự do” được Hồ Chí Minh nhấn mạnh trong bối cảnh nào?",
+        "options": [
+            {
+                "Id": "5A",
+                "Content": "Đế quốc Mỹ tăng cường chiến tranh xâm lược Việt Nam."
+            },
+            {
+                "Id": "5B",
+                "Content": "Sau Cách mạng Tháng Tám năm 1945."
+            },
+            {
+                "Id": "5C",
+                "Content": "Trong Bản yêu sách năm 1919."
+            },
+            {
+                "Id": "5D",
+                "Content": "Trong cuộc kháng chiến chống Pháp."
+            }
+        ],
+        "CorrectAnswer": "5A"
+    },
+    {
+        "Order": 6,
+        "Content": "Theo Hồ Chí Minh, độc lập dân tộc có ý nghĩa gì nếu dân không được hưởng hạnh phúc, tự do?",
+        "options": [
+            {
+                "Id": "6A",
+                "Content": "Độc lập vẫn có ý nghĩa lớn lao."
+            },
+            {
+                "Id": "6B",
+                "Content": "Độc lập chẳng có nghĩa lý gì."
+            },
+            {
+                "Id": "6C",
+                "Content": "Độc lập chỉ cần ở lĩnh vực kinh tế."
+            },
+            {
+                "Id": "6D",
+                "Content": "Độc lập không cần gắn với lãnh thổ."
+            }
+        ],
+        "CorrectAnswer": "6B"
+    },
+    {
+        "Order": 7,
+        "Content": "Sau Cách mạng Tháng Tám, Hồ Chí Minh yêu cầu Đảng và Chính phủ phải làm gì để đảm bảo hạnh phúc cho dân?",
+        "options": [
+            {
+                "Id": "7A",
+                "Content": "Chỉ cần xây dựng quân đội mạnh."
+            },
+            {
+                "Id": "7B",
+                "Content": "Làm cho dân có ăn, có mặc, có chỗ ở, được học hành."
+            },
+            {
+                "Id": "7C",
+                "Content": "Tập trung vào phát triển kinh tế mà không cần giáo dục."
+            },
+            {
+                "Id": "7D",
+                "Content": "Chỉ cần đảm bảo quyền tự do ngôn luận."
+            }
+        ],
+        "CorrectAnswer": "7B"
+    },
+    {
+        "Order": 8,
+        "Content": "Theo Hồ Chí Minh, nền độc lập thật sự, hoàn toàn và triệt để phải được thể hiện như thế nào?",
+        "options": [
+            {
+                "Id": "8A",
+                "Content": "Chỉ cần có quyền tự quyết về ngoại giao."
+            },
+            {
+                "Id": "8B",
+                "Content": "Phải có quân đội riêng, nền tài chính riêng và độc lập trên mọi lĩnh vực."
+            },
+            {
+                "Id": "8C",
+                "Content": "Không cần quan tâm đến kinh tế và quân sự."
+            },
+            {
+                "Id": "8D",
+                "Content": "Chỉ cần dân chúng được tự do là đủ."
+            }
+        ],
+        "CorrectAnswer": "8B"
+    },
+    {
+        "Order": 9,
+        "Content": "Tư tưởng “Nước Việt Nam là một, dân tộc Việt Nam là một” của Hồ Chí Minh nhấn mạnh điều gì?",
+        "options": [
+            {
+                "Id": "9A",
+                "Content": "Độc lập dân tộc không cần gắn với lãnh thổ."
+            },
+            {
+                "Id": "9B",
+                "Content": "Sự thống nhất và toàn vẹn lãnh thổ."
+            },
+            {
+                "Id": "9C",
+                "Content": "Chỉ cần độc lập ở miền Bắc là đủ."
+            },
+            {
+                "Id": "9D",
+                "Content": "Không cần quan tâm đến sự sum họp của đồng bào Nam, Bắc."
+            }
+        ],
+        "CorrectAnswer": "9B"
+    },
+    {
+        "Order": 10,
+        "Content": "Mục tiêu cao cả nhất trong tư tưởng Hồ Chí Minh về độc lập dân tộc là gì?",
+        "options": [
+            {
+                "Id": "10A",
+                "Content": "Xây dựng một nền kinh tế mạnh mẽ."
+            },
+            {
+                "Id": "10B",
+                "Content": "Làm cho nước nhà hoàn toàn độc lập, dân được tự do, ấm no, hạnh phúc."
+            },
+            {
+                "Id": "10C",
+                "Content": "Chỉ cần giữ vững lãnh thổ là đủ."
+            },
+            {
+                "Id": "10D",
+                "Content": "Tập trung vào xây dựng quân đội hùng mạnh."
+            }
+        ],
+        "CorrectAnswer": "10B"
+    }
+]

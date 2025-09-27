@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "@fontsource/knewave";
+@import "@fontsource/gayathri"; /* Mặc định Regular */
+@import "@fontsource/holtwood-one-sc";
+@import "@fontsource/source-serif-pro";
+@import "@fontsource/solitreo";
+@import "react-datepicker/dist/react-datepicker.css";
+
+html,
+body {
+  overflow-x: hidden;
+}
+/* Thanh scroll tổng thể */
+::-webkit-scrollbar {
+  width: 5px; /* Độ rộng thanh cuộn */
+  height: 5px; /* Chiều cao khi là thanh ngang */
+}
+
+/* Phần nền thanh scroll */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Thanh cuộn chính */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+/* Khi hover vào thanh cuộn */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
