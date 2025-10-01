@@ -194,8 +194,10 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
                 <img
                     src={`/profile/${selectedFoods.length < 10 ? "THỰC KHÁCH.png" : "THỰC THẦN.png"}`}
                     alt="background"
-                    className="absolute inset-0 w-full h-full object-contain "
+                    crossOrigin="anonymous"
+                    className="absolute inset-0 w-full h-full object-contain"
                 />
+
 
                 {/* Input tên */}
                 <div className="absolute top-[194px] left-3  w-full flex justify-center">
