@@ -86,7 +86,7 @@ export const WelcomePopup = ({ onClose }) => {
           /> */}
 
           <motion.h1
-            className="text-3xl font-bold mt-8 md:text-3xl  mb-6 text-center text-[#2b468a]  flex flex-col items-center gap-3"
+            className="text-3xl font-bold mt-14 md:text-3xl  mb-6 text-center text-[#2b468a]  flex flex-col items-center gap-3"
             variants={itemVariants}
           >
             <span>Thực Khách Đậm Đà</span>
