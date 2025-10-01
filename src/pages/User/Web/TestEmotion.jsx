@@ -34,7 +34,7 @@ const TestKnowledge = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [selectedFoods, setSelectedFoods] = useState([]);
   const [favoriteFood, setFavoriteFood] = useState("");
-  const [mustTryFoods, setMustTryFoods] = useState([]);
+  const [mustTryFoods, setMustTryFoods] = useState("");
   const [quote, setQuote] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [messageIndex, setMessageIndex] = useState(0);
@@ -63,11 +63,12 @@ const TestKnowledge = () => {
     setCurrentStep(1);
     setSelectedFoods([]);
     setFavoriteFood("");
-    setMustTryFoods([]);
+    setMustTryFoods("");
     setQuote("");
   };
 
-  const randomPandaMessage = PANDA_MESSAGES[Math.floor(Math.random() * PANDA_MESSAGES.length)];
+  const randomPandaMessage =
+    PANDA_MESSAGES[Math.floor(Math.random() * PANDA_MESSAGES.length)];
 
   if (submitting) {
     return (
@@ -98,12 +99,21 @@ const TestKnowledge = () => {
   };
 
   return (
-    <div className="flex flex-col items-center font-sans bg-[url('/danang-food-bg.png')] bg-fixed bg-cover bg-no-repeat px-8 w-full max-w-[1200px] mx-auto">
+    <div className="fixed inset-0 flex items-center justify-center z-20">
+      {/* Nền mờ */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+      />
+
+      {/* Box nội dung */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="rounded-2xl my-2 overflow-y-auto"
+        className="relative z-30 rounded-2xl my-2 overflow-y-auto bg-white/90 backdrop-blur-md shadow-xl p-6 max-w-3xl w-11/12"
       >
         <AnimatePresence mode="wait">
           {CurrentStepComponent && (
@@ -120,7 +130,7 @@ const TestKnowledge = () => {
         </AnimatePresence>
 
         {currentStep < 5 && (
-          <div className="flex flex-col items-center justify-center mt-4 bg-white p-4 rounded-2xl shadow-lg border border-gray-200">
+          <div className="flex flex-col items-center justify-center mt-4 bg-white/80 p-4 rounded-2xl shadow-lg border border-gray-200">
             <div className="text-md italic font-bold text-red-500 text-center animate-pulse">
               {randomPandaMessage}
             </div>

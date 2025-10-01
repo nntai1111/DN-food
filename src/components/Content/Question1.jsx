@@ -22,7 +22,7 @@ const Question1 = ({ selectedFoods, setSelectedFoods, handleNext, currentStep, p
 
     return (
         <motion.div
-            className="p-4 rounded-2xl shadow-lg w-full  bg-white/80 backdrop-blur-sm flex flex-col justify-between items-center"
+            className="p-4  rounded-2xl shadow-lg w-full  bg-white/80 backdrop-blur-sm flex flex-col justify-between items-center"
             style={{ overflow: "hidden" }}
         >
             <div className="flex-1 flex flex-col justify-center items-center w-full max-w-4xl">

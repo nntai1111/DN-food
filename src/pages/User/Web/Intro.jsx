@@ -59,10 +59,11 @@ const Intro = () => {
       className="min-h-screen w-full flex flex-col items-center justify-center relative"
       style={{
         backgroundImage: `url('/bg1e.jpg')`,
-        // backgroundImage: `url('/bg1.png')`,
+        // backgroundImage: `url('/profile/THỰC KHÁCH.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+
       }}
     >
       {/* <img
@@ -71,6 +72,7 @@ const Intro = () => {
         className="absolute bottom-0 left-0 right-0 w-full h-[70%] object-cover pointer-events-none"
       /> */}
 
+      {/* <div className="absolute inset-0 bg-black/40"></div> */}
 
       <div className="relative z-10">
         <ProgressIndicator currentStep={currentStep} totalSteps={4} />
@@ -187,7 +189,7 @@ const MuteButton = ({ isMuted, onToggle }) => {
   return (
     <button
       onClick={onToggle}
-      className="fixed top-4 right-4 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all"
+      className="fixed top-4 right-4 z-[9999]  bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all"
     >
       {isMuted ? (
         <svg
