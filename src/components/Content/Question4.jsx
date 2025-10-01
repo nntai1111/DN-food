@@ -12,7 +12,7 @@ const Question4 = ({ setQuote, handleNext, handleBack, pandaMessage }) => {
 
     return (
         <motion.div
-            className="p-2 rounded-2xl  bg-white/80 backdrop-blur-sm shadow-lg w-full flex flex-col justify-between items-center px-6"
+            className="p-2 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg w-full flex flex-col justify-between items-center px-6"
             style={{ overflow: "hidden" }}
         >
             <div className="flex-1 flex flex-col justify-center items-center w-full max-w-4xl">
@@ -28,23 +28,23 @@ const Question4 = ({ setQuote, handleNext, handleBack, pandaMessage }) => {
                     {q1.quotes.length > 0 ? (
                         q1.quotes.slice(0, 25).map((quote, index) => (
                             <motion.button
-                                key={quote}
-                                onClick={() => handleQuoteToggle(quote)}
+                                key={quote.name} // Use quote.name as the key since it's unique
+                                onClick={() => handleQuoteToggle(quote.name)} // Pass quote.name to handleQuoteToggle
                                 whileHover={{
                                     scale: 1.05,
                                     boxShadow: "0 6px 16px rgba(0, 0, 0, 0.2)",
                                     transition: { duration: 0.2 },
                                 }}
                                 whileTap={{ scale: 0.95 }}
-                                aria-pressed={localQuote === quote}
-                                className={`p-3 rounded-lg text-left transition-all duration-300 ${localQuote === quote
-                                    ? "bg-orange-300 text-gray-800 shadow-lg"
-                                    : "bg-white hover:bg-orange-100 text-gray-800 shadow-md"
+                                aria-pressed={localQuote === quote.name}
+                                className={`p-3 rounded-lg text-left transition-all duration-300 ${localQuote === quote.name
+                                        ? "bg-orange-300 text-gray-800 shadow-lg"
+                                        : "bg-white hover:bg-orange-100 text-gray-800 shadow-md"
                                     }`}
                                 style={{ willChange: "transform, box-shadow" }}
                             >
                                 <span className="text-xs md:text-sm font-semibold leading-tight">
-                                    {quote}
+                                    {quote.name} {/* Display the name property */}
                                 </span>
                             </motion.button>
                         ))
@@ -76,8 +76,8 @@ const Question4 = ({ setQuote, handleNext, handleBack, pandaMessage }) => {
                         whileHover={{ scale: localQuote ? 1.05 : 1 }}
                         whileTap={{ scale: localQuote ? 0.95 : 1 }}
                         className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${localQuote
-                            ? "bg-gradient-to-r from-red-400 to-orange-400 text-white shadow-lg hover:shadow-xl"
-                            : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                                ? "bg-gradient-to-r from-red-400 to-orange-400 text-white shadow-lg hover:shadow-xl"
+                                : "bg-gray-300 text-gray-500 cursor-not-allowed"
                             }`}
                     >
                         Xem kết quả

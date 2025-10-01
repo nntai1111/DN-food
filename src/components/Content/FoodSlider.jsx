@@ -31,7 +31,7 @@ const FoodSlider = ({ foods, selectedFoods, handleFoodToggle }) => {
             style={{ willChange: "opacity, scroll" }}
         >
             {foods.length > 0 ? (
-                foods.slice(0, 25).map((food, index) => (
+                foods.slice(0, 30).map((food, index) => (
                     <motion.button
                         key={food.name}
                         onClick={() => handleFoodToggle(food.name)}
@@ -44,8 +44,8 @@ const FoodSlider = ({ foods, selectedFoods, handleFoodToggle }) => {
                         whileTap={{ scale: 0.95 }}
                         aria-pressed={selectedFoods.includes(food.name)}
                         className={`flex flex-col items-center p-3 rounded-xl text-center transition-all duration-300 min-w-0 ${selectedFoods.includes(food.name)
-                                ? "bg-orange-300 text-gray-800"
-                                : "bg-white hover:bg-orange-100 text-gray-800 shadow-md"
+                            ? "bg-orange-300 text-gray-800"
+                            : "bg-white hover:bg-orange-100 text-gray-800 shadow-md"
                             }`}
                         style={{ willChange: "transform, box-shadow" }}
                     >
@@ -61,7 +61,7 @@ const FoodSlider = ({ foods, selectedFoods, handleFoodToggle }) => {
                 ))
             ) : (
                 <div className="col-span-full text-center text-gray-500">
-                    Không có món ăn nào để hiển thị.
+                    Tuyệt vời quá bạn đã trải nghiệm hết các món ngon ở Đà Nẵng rồi!
                 </div>
             )}
         </motion.div>

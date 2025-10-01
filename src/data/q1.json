@@ -2,115 +2,169 @@
     "foods": [
         {
             "name": "Bánh tráng cuốn thịt heo",
-            "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/164048/Originals/banh-trang-cuon-thit-heo-5.jpg"
-        },
-        {
-            "name": "Mì Quảng",
-            "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/mi_quang_phu_chiem_1ed1430e57.jpg"
-        },
-        {
-            "name": "Bún chả cá",
-            "image": "https://statics.vinpearl.com/bun-cha-ca-da-nang--_1629094990.jpg"
-        },
-        {
-            "name": "Bánh xèo",
-            "image": "https://salindaresort.com/uploads/articles/134/bo-tui-11-quan-banh-xeo-ngon-nhat-phu-quoc.jpg"
-        },
-        {
-            "name": "Cao lầu",
-            "image": "https://i-giadinh.vnecdn.net/2023/03/13/Buoc-7-Thanh-pham-1-7-9577-1678700377.jpg"
-        },
-        {
-            "name": "Bê thui Cầu Mống",
-            "image": "https://statics.vinpearl.com/be-thui-cau-mong-06_1634016495.jpg"
-        },
-        {
-            "name": "Hải sản nướng",
-            "image": "https://reviewdanang.com.vn/wp-content/uploads/2023/04/Thiet-ke-chua-co-ten-19.png"
+            "image": "/food/BANH TRANG THIT HEO.webp"
         },
         {
             "name": "Bánh bèo",
-            "image": "https://statics.vinpearl.com/banh-beo-da-nang-13_1666604428.jpg"
+            "image": "/food/BÁNH BÈO.jpg"
         },
         {
-            "name": "Bánh nậm",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBOuSRba1tbeb8i3thXOuKE6gMB7xJrWdAA&s"
+            "name": "Bánh căn",
+            "image": "/food/BÁNH CĂN.webp"
         },
         {
-            "name": "Bánh lọc",
-            "image": "https://statics.vinpearl.com/banh-bot-loc-da-nang-7_1668524495.jpg"
+            "name": "Bánh canh ruộng",
+            "image": "/food/BÁNH CANH RUỘNG.webp"
         },
         {
-            "name": "Gỏi cá Nam Ô",
-            "image": "https://statics.vinpearl.com/goi-ca-nam-o-10_1628680233.jpg"
+            "name": "Bánh đập",
+            "image": "/food/BÁNH ĐẬP.webp"
         },
         {
-            "name": "Chè bắp Hội An",
-            "image": "https://static.vinwonders.com/2023/01/che-bap-hoi-an-3.jpg"
+            "name": "Bánh mì bột lọc",
+            "image": "/food/BÁNH MÌ BỘT LỌC.jpg"
+        },
+        {
+            "name": "Bánh tráng kẹp",
+            "image": "/food/BÁNH TRÁNG KẸP.jpg"
+        },
+        {
+            "name": "Bê thui",
+            "image": "/food/BÊ THUI.jpg"
+        },
+        {
+            "name": "Bánh xèo",
+            "image": "/food/BÁNH XÈO.jpg"
         },
         {
             "name": "Bún bò",
-            "image": "https://statics.vinpearl.com/bun-bo-da-nang-05_1629178983_1679993291.png"
+            "image": "/food/BÚN BÒ.jpg"
         },
         {
-            "name": "Hến xúc bánh tráng",
-            "image": "https://beptruong.edu.vn/wp-content/uploads/2021/01/hen-xuc-banh-da.jpg"
-        },
-        {
-            "name": "Mít trộn",
-            "image": "https://cdn.tgdd.vn/2021/10/CookRecipe/GalleryStep/thanh-pham-1551.jpg"
-        },
-        {
-            "name": "Bánh canh chả cá",
-            "image": "https://static.vinwonders.com/2022/12/banh-canh-Da-Nang-13.jpg"
-        },
-        {
-            "name": "Kem bơ",
-            "image": "https://static.vinwonders.com/production/Kem-bo-da-nang-1.jpg"
-        },
-        {
-            "name": "Cháo lươn",
-            "image": "https://statics.vinpearl.com/chao-luon-da-nang-8_1703648174.jpg"
-        },
-        {
-            "name": "Bánh khoái",
-            "image": "https://statics.vinpearl.com/banh-xeo-da-nang-1_1629075704.jpg"
-        },
-        {
-            "name": "Nem lụi",
-            "image": "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2016/01/mon-nem-lui-1-e1505807903556.jpg"
-        },
-        {
-            "name": "Bánh ướt thịt nướng",
-            "image": "https://static.vinwonders.com/production/banh-uot-da-nang-06.jpg"
-        },
-        {
-            "name": "Cơm gà",
-            "image": "https://duonggiahotel.vn/wp-content/uploads/2023/09/quan-com-ga-da-nang-21.jpg"
+            "name": "Bún chả cá",
+            "image": "/food/BÚN CHA CA.webp"
         },
         {
             "name": "Bún mắm nêm",
-            "image": "https://statics.vinpearl.com/bun-mam-nem-da-nang-09_1628665181.jpg"
+            "image": "/food/BÚN MẮM NÊM.webp"
         },
         {
-            "name": "Bánh mì Đà Nẵng",
-            "image": "https://duonggiahotel.vn/wp-content/uploads/2023/10/tiem-banh-mi-da-nang-2.jpg"
+            "name": "Cá nục hấp bánh tráng",
+            "image": "/food/CÁ NỤC HẤP BÁNH TRÁNG.jpg"
+        },
+        {
+            "name": "Cao lầu",
+            "image": "/food/CAO LAU.webp"
+        },
+        {
+            "name": "Chả bò",
+            "image": "/food/CHẢ BÒ.jpg"
+        },
+        {
+            "name": "Chè sầu riêng",
+            "image": "/food/CHÈ SẦU RIÊNG.jpg"
+        },
+        {
+            "name": "Cơm hến",
+            "image": "/food/CƠM HẾN.jpg"
+        },
+        {
+            "name": "Cơm gà",
+            "image": "/food/comga.jpg"
+        },
+        {
+            "name": "Gỏi cá Nam Ô",
+            "image": "/food/GỎI CÁ NAM Ô.webp"
+        },
+        {
+            "name": "Gỏi sứa",
+            "image": "/food/GỎI SỨA.webp"
+        },
+        {
+            "name": "Hải sản",
+            "image": "/food/HẢI SẢN.jpg"
+        },
+        {
+            "name": "Mì Quảng",
+            "image": "/food/MI QUANG.webp"
+        },
+        {
+            "name": "Mít trộn",
+            "image": "/food/Mít trộn.jpg"
+        },
+        {
+            "name": "Mít trộn",
+            "image": "/food/MÍT TRỘN.webp"
         },
         {
             "name": "Ốc hút",
-            "image": "https://mia.vn/media/uploads/blog-du-lich/diem-mat-top-7-quan-oc-hut-da-nang-nuc-tieng-gan-xa-1-1636999076.jpg"
+            "image": "/food/ỐC HÚT.jpg"
+        },
+        {
+            "name": "Ốc trộn",
+            "image": "/food/ỐC TRỘN.jpg"
+        },
+        {
+            "name": "Ram cuốn lá cải",
+            "image": "/food/RAM CUỐN LÁ CẢI.jpg"
+        },
+        {
+            "name": "Rong biển Mỹ Khê",
+            "image": "/food/RONG BIỂN MỸ KHÊ.jpg"
+        },
+        {
+            "name": "Thịt nướng nem lụi",
+            "image": "/food/THỊT NƯỚNG NEM LỤI.jpg"
+        },
+        {
+            "name": "Tré",
+            "image": "/food/TRÉ.jpg"
         }
     ],
     "quotes": [
-        "🍜 Đồ ăn Đà Nẵng ngon dữ rứa!",
-        "🔥 DamDa DamDa DamDa OMG không thể từ chối được!",
-        "🥢 Ẩm thực Đà Nẵng, ăn là mê!",
-        "🌸 Hương vị Đà Nẵng, đậm đà khó quên!",
-        "💖 Một lần ăn, ngàn lần nhớ!",
-        "🌊 Đà Nẵng không chỉ có biển đẹp mà còn có ẩm thực siêu ngon!",
-        "😋 Ăn xong lại muốn ăn nữa, thiệt tình!",
-        "🥘 Món ngon Đà Nẵng – vừa ngon vừa đậm chất miền Trung!",
-        "📍 Đến Đà Nẵng mà chưa thử đặc sản thì coi như chưa đi!",
-        "✨ Ẩm thực Đà Nẵng – đơn giản mà làm say lòng người!"
+        {
+            "name": "🍜 Món chi mà ngon rứa !!!",
+            "image": "/quote/1.png"
+        },
+        {
+            "name": "🔥 đậm Đà đậm Đà đậm Đà ...OMG không thể từ chối được!!!!",
+            "image": "/quote/2.png"
+        },
+        {
+            "name": "🥢 Món ngon, món xinh, món y",
+            "image": "/quote/3.png"
+        },
+        {
+            "name": "🌸 Đồ ăn Đà Nẵng NGON SIÊU ĐẲNG",
+            "image": "/quote/4.png"
+        },
+        {
+            "name": "💖 Ngon chi mà ngon ri hè hẹ hẹ",
+            "image": "/quote/5.png"
+        },
+        {
+            "name": "🌊 ăn rồi chỉ có ghiềnnnnn",
+            "image": "/quote/6.png"
+        },
+        {
+            "name": "😋 Cái món chi cũng ngol <3",
+            "image": "/quote/7.png"
+        },
+        {
+            "name": "🥘 Không ngon không lấy xiềng",
+            "image": "/quote/8.png"
+        },
+        {
+            "name": "💖 Món Đà - ăn là không thể dứt ra",
+            "image": "/quote/9.png"
+        },
+        {
+            "name": "💖 Fantastic, wonderful, significant, magnificent...",
+            "image": "/quote/11.png"
+        },
+        {
+            "name": "📍 Thơm phức",
+            "image": "/quote/10.png"
+        }
     ]
 }
