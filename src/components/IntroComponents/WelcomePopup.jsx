@@ -52,7 +52,7 @@ export const WelcomePopup = ({ onClose }) => {
         className="fixed inset-0 flex items-center justify-center z-40"
       >
         <motion.div
-          className="bg-white/90 backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-2xl max-w-2xl w-11/12 border border-orange-200/50 flex flex-col items-center justify-center relative"
+          className="bg-white backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-2xl max-w-2xl w-11/12 border border-orange-200/50 flex flex-col items-center justify-center relative"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -65,8 +65,8 @@ export const WelcomePopup = ({ onClose }) => {
               position: "absolute",
               top: "16px",
               left: "16px",
-              width: "80px",
-              height: "48px",
+              width: "130px",
+              height: "70px",
               opacity: 0.4,
             }}
             variants={iconVariants}
@@ -86,7 +86,7 @@ export const WelcomePopup = ({ onClose }) => {
           /> */}
 
           <motion.h1
-            className="text-3xl mt-8 md:text-3xl font-extrabold mb-6 text-center text-[#2b468a] font-[Cursive] flex flex-col items-center gap-3"
+            className="text-3xl font-bold mt-8 md:text-3xl  mb-6 text-center text-[#2b468a]  flex flex-col items-center gap-3"
             variants={itemVariants}
           >
             <span>Thực Khách Đậm Đà</span>
@@ -97,7 +97,7 @@ export const WelcomePopup = ({ onClose }) => {
 
           <div className="flex flex-col  space-y-4 text-sm md:text-base leading-relaxed mb-8">
             <motion.p variants={itemVariants} className=" inline-flex items-center justify-center gap-2">
-              <motion.span variants={iconVariants}>🥢</motion.span>
+              {/* <motion.span variants={iconVariants}>🥢</motion.span> */}
               <span>              Chào mừng bạn đến với Challenge <span className="text-orange-500 font-semibold">“Thực khách Đậm Đà”</span> nơi bạn trở thành “nhà thám hiểm” ẩm thực, khám phá từng hương vị đặc trưng của Đà Nẵng
               </span>
             </motion.p>
@@ -109,25 +109,25 @@ export const WelcomePopup = ({ onClose }) => {
             </motion.div> */}
 
             <motion.p variants={itemVariants} className="inline-flex items-center justify-center gap-2">
-              <motion.span variants={iconVariants}>🍲</motion.span>
+              {/* <motion.span variants={iconVariants}>🍲</motion.span> */}
               Từ những món quen thuộc đến những hương vị bạn chưa từng thử qua, mỗi câu hỏi sẽ dần hé lộ “Chân dung đậm Đà” mang đậm dấu ấn cá nhân của bạn
             </motion.p>
 
             <motion.p variants={itemVariants} className="inline-flex items-center justify-center gap-2">
-              <motion.span variants={iconVariants}>🍤</motion.span>
-              Tham gia ngay để tạo ra profile của riêng bạn và lan tỏa tình yêu ẩm thực Đà Thành với mọi người ngay nhé!
+              {/* <motion.span variants={iconVariants}>🍤</motion.span> */}
+              Tham gia ngay để tạo ra profile của riêng bạn và lan tỏa tình yêu ẩm thực Đà Thành với mọi người nhé!
 
             </motion.p>
 
             <motion.div className="flex items-center justify-center space-x-2 py-2" variants={itemVariants}>
               <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
-              <motion.span className="text-lg" variants={iconVariants}>🍙</motion.span>
+              {/* <motion.span className="text-lg" variants={iconVariants}>🍙</motion.span> */}
               <div className="h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent w-16"></div>
             </motion.div>
 
-            <motion.p variants={itemVariants} className="font-medium text-orange-600 inline-flex items-center justify-center gap-2">
-              <motion.span variants={iconVariants}>🔥</motion.span>
-              Thưởng thức món ngon, lan tỏa hương vị Đà Nẵng!
+            <motion.p variants={itemVariants} className="font-medium text-xl text-[#2DCCD3] inline-flex items-center justify-center gap-2">
+              {/* <motion.span variants={iconVariants}>🔥</motion.span> */}
+              "Cứ Xanh là Ngon đậm Đà"
             </motion.p>
           </div>
 
