@@ -59,26 +59,26 @@ export const WelcomePopup = ({ onClose }) => {
         >
           {/* Decorative icons */}
           <motion.img
-            src="/logo1b.png"
+            src="/logoReal.png"
             alt="Corner Decor"
             style={{
               position: "absolute",
               top: "16px",
               left: "16px",
-              width: "48px",
+              width: "80px",
               height: "48px",
               opacity: 0.4,
             }}
             variants={iconVariants}
           />
           <motion.img
-            src="/logo1b.png"
+            src="/logoReal.png"
             alt="Corner Decor"
             style={{
               position: "absolute",
               bottom: "16px",
               right: "16px",
-              width: "48px",
+              width: "80px",
               height: "48px",
               opacity: 0.4,
             }}
