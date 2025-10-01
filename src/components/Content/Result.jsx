@@ -21,7 +21,7 @@ const ResultDesktop = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handl
 
     const handleDownloadImage = async () => {
         if (!value.trim()) {
-            setError("Bạn phải nhập tên trước khi tải thiệp!");
+            setError("Bạn hãy nhập tên/biệt danh của bạn trước khi tải thiệp nhé!");
             return;
         }
         setError("");
@@ -152,7 +152,7 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
 
     const handleDownloadImage = async () => {
         if (!value.trim()) {
-            setError("Bạn phải nhập tên trước khi tải thiệp!");
+            setError("Bạn hãy nhập tên/biệt danh của bạn trước khi tải thiệp nhé!");
             return;
         }
         setError("");
@@ -213,7 +213,7 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
                           ${error ? "border-b-2 border-red-500" : ""}`}
                     />
                     {error && (
-                        <p className="absolute top-[120px] left-1/2 -translate-x-1/2 text-red-600 ">
+                        <p className="absolute top-[15px] text-[8px] left-1/2 -translate-x-1/2 text-red-600 ">
                             {error}
                         </p>
                     )}
