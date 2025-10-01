@@ -198,7 +198,7 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
                 />
 
                 {/* Input tên */}
-                <div className="absolute top-[202px] left-0  w-full flex justify-center">
+                <div className="absolute top-[194px] left-3  w-full flex justify-center">
                     <input
                         type="text"
                         value={value}
@@ -223,10 +223,10 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
                 <div className="absolute top-[50.5%] left-[47%] text-[10px] font-bold text-[#175D65]">
                     {selectedFoods.length}
                 </div>
-                <div className="absolute top-[54.5%] left-[51%] text-[10px] font-bold text-[#175D65]">
+                <div className="absolute top-[54.8%] left-[51%] text-[10px] font-bold text-[#175D65]">
                     {favoriteFood}
                 </div>
-                <div className="absolute top-[58%] left-[55%] text-[10px] font-bold text-[#175D65]">
+                <div className="absolute top-[58.9%] left-[55%] text-[10px] font-bold text-[#175D65]">
                     {mustTryFoods}
                 </div>
 
@@ -235,7 +235,7 @@ const ResultMobile = ({ selectedFoods, favoriteFood, mustTryFoods, quote, handle
                     <img
                         src={selectedQuote.image}
                         alt={selectedQuote.name}
-                        className="absolute bottom-[31%] left-[20%] w-[60%] h-auto"
+                        className="absolute bottom-[29%] left-[20%] w-[60%] h-auto"
                     />
                 )}
             </div>
